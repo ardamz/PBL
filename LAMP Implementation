@@ -1,0 +1,10 @@
+# I am using an ubuntu OS in a virtual box
+
+# To update the OS repositories
+sudo apt update
+
+#To Instal the Apache server, run
+sudo apt install apache2
+
+#to verify if the apache server is installed and staus, run
+sudo systemctl status apache2
