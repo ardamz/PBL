@@ -59,7 +59,7 @@ This text is not \ __BOLD\__
 `<p>This is a new Paragraph</p>`
 
 <!-- Images-->
-![Screenshot](https://www.dropbox.com/s/53q5wqwya6p2fpy/Screenshot%202022-05-16%20at%2013.06.10.png)
+![Screenshot](https://github.com/ardamz/PBL/blob/97986f05ad86b9c39e09b3f75b0fe5426eb8d6cd/Screenshot%202022-07-25%20at%2017.58.44%20(2).png)
 
 
 # Github Markdown
