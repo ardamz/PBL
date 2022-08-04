@@ -1,4 +1,4 @@
-# LAMP mean Linux Apache Mysql PHP
+# LAMP means Linux Apache Mysql PHP
 
  ## 1.  **Linux**
 
