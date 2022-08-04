@@ -24,8 +24,12 @@ sudo apt install nginx
 And I ran the following code to verify the Apache installation and status
 
 ```bash
-sudo systemctl status apach2e
+sudo systemctl status nginx
 ```
+![Screenshot](PROJECT 2: LEMP images/Verify nginx status.png)
+
+![Screenshot](https://github.com/ardamz/PBL/blob/4d89f68e3290df1e7f542297ee66e59ad113b9d7/PROJECT%202:%20LEMP%20images/verify%20nginx%20install.png)
+
 To verify if the Apache server is up and running, i just grab the Public IP address of the server from the AWS EC2 consoloe and put it in the browser and the (default) page below is displayed
 
 ![Screenshot](https://github.com/ardamz/pikso/blob/993709479fad15bdd620ea7cab8d4b68b2348696/LAMP/Ubuntu%20default%20browser%20page.png)
