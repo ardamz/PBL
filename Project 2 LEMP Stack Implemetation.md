@@ -246,7 +246,7 @@ try {
 }
 ```
 
-![Screenshot](PROJECT 2: LEMP images/DB to PHP.png)
+![Screenshot](https://github.com/ardamz/pikso/blob/d5b432bb0320497579e53ffea35c08bba6bce1ae/LEMP/DB%20to%20PHP.png)
 
 
 
