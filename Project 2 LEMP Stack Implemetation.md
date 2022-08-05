@@ -1,4 +1,4 @@
-[# LEMP means NGINX Mysql PHP
+# LEMP means NGINX Mysql PHP
 
  ## 1.  **Linux**
 
@@ -215,5 +215,39 @@ mysql>  SELECT * FROM sampleDB.todo_list;
 
 ![Screenshot](https://github.com/ardamz/pikso/blob/d5b432bb0320497579e53ffea35c08bba6bce1ae/LEMP/view%20DB%20table.png)
 
+After verifying the exit of the database, i exited the mysql console.
+
+Using nano text editor, I the created a PHP script that will connect to MySQL and query for my content. 
+
+```bash
+nano /var/www/projectLEMP/todo_list.php
+```
+![Screenshot](https://github.com/ardamz/PBL/blob/fda325d8682502b58284babcef088520f45e649f/PROJECT%202:%20LEMP%20images/more%20codes.png)
+
+I created this  new PHP file in my custom web root directory and saved the script below in it:
+
+```bash
+<?php
+$user = "sampleUSER";
+$password = "P@ssword1";
+$database = "sampleDB";
+$table = "todo_list";
+
+try {
+  $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
+  echo "<h2>TODO</h2><ol>";
+  foreach($db->query("SELECT content FROM $table") as $row) {
+    echo "<li>" . $row['content'] . "</li>";
+  }
+  echo "</ol>";
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
+```
+
+![Screenshot](https://github.com/ardamz/PBL/blob/fda325d8682502b58284babcef088520f45e649f/PROJECT%202:%20LEMP%20images/DB%20to%20PHP.png)
+
+
+
 ![Screenshot]()
-](https://github.com/ardamz/PBL/blob/fda325d8682502b58284babcef088520f45e649f/PROJECT%202:%20LEMP%20images/DB%20to%20PHP.png)
