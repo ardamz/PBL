@@ -248,6 +248,6 @@ try {
 
 ![Screenshot](https://github.com/ardamz/PBL/blob/fda325d8682502b58284babcef088520f45e649f/PROJECT%202:%20LEMP%20images/DB%20to%20PHP.png)
 
+Finally i grabbed the Public IP address of the Linux system again and append */todo_list.php* as a suffix, and the browser returned the content of the todo_list Table in the sampleDB earlier created as shown below.
 
-
-![Screenshot]()
+![Screenshot](https://github.com/ardamz/PBL/blob/edd20ea5402a7d08e5e15c22b89064f64203daad/PROJECT%202:%20LEMP%20images/graphical%20view%20of%20DB%20in%20PHP.png)
