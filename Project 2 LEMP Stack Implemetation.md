@@ -1,4 +1,4 @@
-# LEMP means NGINX Mysql PHP
+[# LEMP means NGINX Mysql PHP
 
  ## 1.  **Linux**
 
@@ -216,3 +216,4 @@ mysql>  SELECT * FROM sampleDB.todo_list;
 ![Screenshot](https://github.com/ardamz/pikso/blob/d5b432bb0320497579e53ffea35c08bba6bce1ae/LEMP/view%20DB%20table.png)
 
 ![Screenshot]()
+](https://github.com/ardamz/PBL/blob/fda325d8682502b58284babcef088520f45e649f/PROJECT%202:%20LEMP%20images/DB%20to%20PHP.png)
