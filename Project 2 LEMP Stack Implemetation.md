@@ -21,14 +21,12 @@ sudo apt install nginx
 
 ![Screenshot](https://github.com/ardamz/PBL/blob/8e3fae5a1c536d9bba46c3ca21d7e792d4cf76d4/PROJECT%202:%20LEMP%20images/Install%20nginx.png)
 
-And I ran the following code to verify the Apache installation and status
+And I ran the following code to verify the nginx installation and status
 
 ```bash
 sudo systemctl status nginx
 ```
 ![Screenshot](https://github.com/ardamz/PBL/blob/be1ebed8ae4f7a4720334a7f49e1305326b9eef5/PROJECT%202:%20LEMP%20images/verify%20nginx%20install.png)
-
-![Screenshot](https://github.com/ardamz/PBL/blob/4d89f68e3290df1e7f542297ee66e59ad113b9d7/PROJECT%202:%20LEMP%20images/verify%20nginx%20install.png)
 
 To verify if the nginx server is up and running, i just grabbed the Public IP address of the Linux system from the AWS EC2 consoloe and put it in the browser and the (default) page below is displayed
 
