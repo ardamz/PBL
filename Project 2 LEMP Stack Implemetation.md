@@ -246,7 +246,7 @@ try {
 }
 ```
 
-![Screenshot](https://github.com/ardamz/PBL/blob/fda325d8682502b58284babcef088520f45e649f/PROJECT%202:%20LEMP%20images/DB%20to%20PHP.png)
+![Screenshot](PROJECT 2: LEMP images/DB to PHP.png)
 
 
 
