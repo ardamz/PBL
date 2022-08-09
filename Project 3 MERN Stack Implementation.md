@@ -75,7 +75,7 @@ npm install express
 ```
 ![Screenshot](https:)
 
-After the <mark>installation</mark>, i created an index.js file using the touch command and also used the ls command to verify creation of saiod file.
+After the `installation`, i created an index.js file using the touch command and also used the ls command to verify creation of saiod file.
 
 ```bash
 sudo mysql 
